@@ -39,7 +39,10 @@ namespace ArrayNumeros
             {
                 Console.Write(" " + numbers[j]);
             }
-            Console.WriteLine(menor);
+
+            Console.WriteLine("");
+            Console.WriteLine("O menor numero é: " + menor);
+            Console.WriteLine("O maior numero é: " + maior);
             Console.ReadKey();
          
             
